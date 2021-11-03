@@ -1,0 +1,54 @@
+﻿Family name,Ligands,Official IUPHAR receptor name,Human gene symbol,Rat gene symbol,Mouse gene symbol,Comment
+Aquaporins,,AQP0,MIP,Mip,Mip,Aquaporins
+Aquaporins,,AQP1,AQP1,Aqp1,Aqp1,Aquaporins
+Aquaporins,,AQP2,AQP2,Aqp2,Aqp2,Aquaporins
+Aquaporins,,AQP3,AQP3,Aqp3,Aqp3,Aquaporins
+Aquaporins,,AQP4,AQP4,Aqp4,Aqp4,Aquaporins
+Aquaporins,,AQP5,AQP5,Aqp5,Aqp5,Aquaporins
+Aquaporins,,AQP6,AQP6,Aqp6,Aqp6,Aquaporins
+Aquaporins,,AQP7,AQP7,Aqp7,Aqp7,Aquaporins
+Aquaporins,,AQP8,AQP8,Aqp8,Aqp8,Aquaporins
+Aquaporins,,AQP9,AQP9,Aqp9,Aqp9,Aquaporins
+Aquaporins,,AQP10,AQP10,,,Aquaporins
+Aquaporins,,AQP11,AQP11,Aqp11,Aqp11,Aquaporins
+Calcium activated chloride channel,,CaCC,ANO1,Ano1,Ano1,Calcium activated chloride channel
+CFTR,,CFTR,CFTR,Cftr,Cftr,CFTR
+ClC family,,ClC-1,CLCN1,Clcn1,Clcn1,ClC family
+ClC family,,ClC-2,CLCN2,Clcn2,Clcn2,ClC family
+ClC family,,ClC-Ka,CLCNKA,Clcnka,Clcnka,ClC family
+ClC family,,ClC-Kb,CLCNKB,Clcnkb,Clcnkb,ClC family
+ClC family,,ClC-3,CLCN3,Clcn3,Clcn3,ClC family
+ClC family,,ClC-4,CLCN4,Clcn4,Clcn4,ClC family
+ClC family,,ClC-5,CLCN5,Clcn5,Clcn5,ClC family
+ClC family,,ClC-6,CLCN6,Clcn6,Clcn6,ClC family
+ClC family,,ClC-7,CLCN7,Clcn7,Clcn7,ClC family
+Connexins and Pannexins,,Cx23,GJE1,Gje1,Gje1,Connexins and Pannexins
+Connexins and Pannexins,,Cx25,GJB7,,,Connexins and Pannexins
+Connexins and Pannexins,,Cx26,GJB2,Gjb2,Gjb2,Connexins and Pannexins
+Connexins and Pannexins,,Cx30,GJB6,Gjb6,Gjb6,Connexins and Pannexins
+Connexins and Pannexins,,Cx30.2,GJC3,Gjc3,Gjc3,Connexins and Pannexins
+Connexins and Pannexins,,Cx30.3,GJB4,Gjb4,Gjb4,Connexins and Pannexins
+Connexins and Pannexins,,Cx31,GJB3,Gjb3,Gjb3,Connexins and Pannexins
+Connexins and Pannexins,,Cx31.1,GJB5,Gjb5,Gjb5,Connexins and Pannexins
+Connexins and Pannexins,,Cx31.9,GJD3,Gjd3,Gjd3,Connexins and Pannexins
+Connexins and Pannexins,,Cx32,GJB1,Gjb1,Gjb1,Connexins and Pannexins
+Connexins and Pannexins,,Cx36,GJD2,Gjd2,Gjd2,Connexins and Pannexins
+Connexins and Pannexins,,Cx37,GJA4,Gja4,Gja4,Connexins and Pannexins
+Connexins and Pannexins,,Cx40,GJA5,Gja5,Gja5,Connexins and Pannexins
+Connexins and Pannexins,,Cx40.1,GJD4,Gjd4,Gjd4,Connexins and Pannexins
+Connexins and Pannexins,,Cx43,GJA1,Gja1,Gja1,Connexins and Pannexins
+Connexins and Pannexins,,Cx45,GJC1,Gjc1,Gjc1,Connexins and Pannexins
+Connexins and Pannexins,,Cx46,GJA3,Gja3,Gja3,Connexins and Pannexins
+Connexins and Pannexins,,Cx47,GJC2,Gjc2,Gjc2,Connexins and Pannexins
+Connexins and Pannexins,,Cx50,GJA8,Gja8,Gja8,Connexins and Pannexins
+Connexins and Pannexins,,Cx59,GJA9,,,Connexins and Pannexins
+Connexins and Pannexins,,Cx62,GJA10,Gja10,Gja10,Connexins and Pannexins
+Connexins and Pannexins,,Px1,PANX1,Panx1,Panx1,Connexins and Pannexins
+Connexins and Pannexins,,Px2,PANX2,Panx2,Panx2,Connexins and Pannexins
+Connexins and Pannexins,,Px3,PANX3,Panx3,Panx3,Connexins and Pannexins
+Orai channels,,Orai1,ORAI1,Orai1,Orai1,Orai channels
+Orai channels,,Orai2,ORAI2,Orai2,Orai2,Orai channels
+Orai channels,,Orai3,ORAI3,Orai3,Orai3,Orai channels
+Piezo channels,,Piezo1,PIEZO1,Piezo1,Piezo1,Piezo channels
+Piezo channels,,Piezo2,PIEZO2,Piezo2,Piezo2,Piezo channels
+"Sodium leak channel, non-selective",,Navi2.1,NALCN,Nalcn,Nalcn,"Sodium leak channel, non-selective"

@@ -1,0 +1,55 @@
+[2020-10-27 15:49:20.335] [jointLog] [info] parsing read library format
+[2020-10-27 15:49:20.335] [jointLog] [info] There is 1 library.
+[2020-10-27 15:49:20.405] [jointLog] [info] Loading Quasi index
+[2020-10-27 15:49:20.405] [jointLog] [info] Loading 32-bit quasi index
+[2020-10-27 15:49:29.900] [jointLog] [info] done
+[2020-10-27 15:49:29.900] [jointLog] [info] Index contained 140948 targets
+[2020-10-27 15:49:31.731] [jointLog] [warning] Fragment GC bias correction is currently *experimental* in single-end libraries.  Please use this option with caution.
+[2020-10-27 15:49:32.004] [jointLog] [info] Automatically detected most likely library type as SR
+[2020-10-27 15:49:49.614] [jointLog] [info] Computed 127515 rich equivalence classes for further processing
+[2020-10-27 15:49:49.614] [jointLog] [info] Counted 9694551 total reads in the equivalence classes 
+[2020-10-27 15:49:49.655] [jointLog] [warning] 0.15241% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 30.
+
+
+[2020-10-27 15:49:49.655] [jointLog] [info] Mapping rate = 94.6661%
+
+[2020-10-27 15:49:49.655] [jointLog] [info] finished quantifyLibrary()
+[2020-10-27 15:49:49.659] [jointLog] [info] Starting optimizer
+[2020-10-27 15:49:49.615] [fileLog] [info] 
+At end of round 0
+==================
+Observed 10240781 total fragments (10240781 in most recent round)
+
+[2020-10-27 15:49:49.775] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-10-27 15:49:49.785] [jointLog] [info] iteration = 0 | max rel diff. = 47.3711
+[2020-10-27 15:49:49.861] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2020-10-27 15:51:01.882] [jointLog] [info] Computed expected counts (for bias correction)
+[2020-10-27 15:51:01.883] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2020-10-27 15:51:10.246] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2020-10-27 15:51:18.961] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2020-10-27 15:51:27.895] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2020-10-27 15:51:35.920] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2020-10-27 15:51:44.233] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2020-10-27 15:51:53.095] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2020-10-27 15:51:54.001] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2020-10-27 15:51:54.541] [jointLog] [info] iteration = 100 | max rel diff. = 0.302935
+[2020-10-27 15:51:55.135] [jointLog] [info] iteration = 200 | max rel diff. = 0.129494
+[2020-10-27 15:51:55.728] [jointLog] [info] iteration = 300 | max rel diff. = 0.112119
+[2020-10-27 15:51:56.407] [jointLog] [info] iteration = 400 | max rel diff. = 0.0397569
+[2020-10-27 15:51:57.045] [jointLog] [info] iteration = 500 | max rel diff. = 0.0266235
+[2020-10-27 15:51:57.672] [jointLog] [info] iteration = 600 | max rel diff. = 0.0410666
+[2020-10-27 15:51:58.288] [jointLog] [info] iteration = 700 | max rel diff. = 0.0367582
+[2020-10-27 15:51:58.941] [jointLog] [info] iteration = 800 | max rel diff. = 0.0297981
+[2020-10-27 15:51:59.560] [jointLog] [info] iteration = 900 | max rel diff. = 0.019658
+[2020-10-27 15:52:00.408] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0167609
+[2020-10-27 15:52:00.994] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0181211
+[2020-10-27 15:52:01.554] [jointLog] [info] iteration = 1200 | max rel diff. = 0.0197531
+[2020-10-27 15:52:02.162] [jointLog] [info] iteration = 1300 | max rel diff. = 0.0108158
+[2020-10-27 15:52:02.463] [jointLog] [info] iteration = 1341 | max rel diff. = 0.00998636
+[2020-10-27 15:52:02.487] [jointLog] [info] Finished optimizer
+[2020-10-27 15:52:02.487] [jointLog] [info] writing output 
+
+[2020-10-27 15:52:03.104] [jointLog] [info] Starting Gibbs Sampler
+[2020-10-27 15:52:18.157] [jointLog] [info] Finished Gibbs Sampler

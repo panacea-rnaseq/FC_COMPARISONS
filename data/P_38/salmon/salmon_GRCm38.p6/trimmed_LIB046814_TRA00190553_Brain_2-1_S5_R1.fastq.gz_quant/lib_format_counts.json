@@ -1,0 +1,21 @@
+{
+    "read_files": "/lab-share/RC-Data-Science-e2/Public/Sam/Project_38/outputs/trimmed-files/trimmed_LIB046814_TRA00190553_Brain_2-1_S5_R1.fastq.gz",
+    "expected_format": "SR",
+    "compatible_fragment_ratio": 0.9923568462332268,
+    "num_compatible_fragments": 12534891,
+    "num_assigned_fragments": 12631435,
+    "num_consistent_mappings": 36468748,
+    "num_inconsistent_mappings": 599093,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 0,
+    "SF": 599093,
+    "SR": 36468748,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

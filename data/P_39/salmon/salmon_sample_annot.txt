@@ -1,0 +1,16 @@
+Sample	Condition	Type
+Cortical_neurons-S17_rep_1	Cortical_neurons	rep_1
+Motor_neurons-S18_rep_1	Motor_neurons	rep_1
+Nociceptor(4Weeks)-S19_rep_1	Nociceptor	rep_1
+Cardiomyocytes-S20_rep_1	Cardiomyocytes	rep_1
+Cortical_neurons-S21_rep_2	Cortical_neurons	rep_2
+Motor_neurons-S22_rep_2	Motor_neurons	rep_2
+Nociceptor(4Weeks)-S23_rep_2	Nociceptor	rep_2
+Nociceptor(8Weeks)-S24_rep_2	Nociceptor	rep_2
+Cardiomyocytes-S25_rep_2	Cardiomyocytes	rep_2
+Motor_neurons-S26_rep_3	Motor_neurons	rep_3
+Nociceptor(4Weeks)-S27_rep_3	Nociceptor	rep_3
+Nociceptor(8Weeks)-S28_rep_3	Nociceptor	rep_3
+Cardiomyocytes-S29_rep_3	Cardiomyocytes	rep_3
+Nociceptor(8Weeks)-S6_rep_1	Nociceptor	rep_1
+Cortical_neurons-S8_rep_3	Cortical_neurons	rep_3

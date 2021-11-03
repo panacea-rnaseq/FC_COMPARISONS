@@ -1,0 +1,16 @@
+Module	Section	Sample Name	Source
+Salmon	all_sections	trimmed_TRA00190571_S23	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190571_S23.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190575_S27	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190575_S27.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190567_S19	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190567_S19.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190570_S22	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190570_S22.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190568_S20	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190568_S20.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190569_S21	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190569_S21.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190572_S24	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190572_S24.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190576_S28	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190576_S28.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190586_S6	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190586_S6.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190577_S29	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190577_S29.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190588_S8	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190588_S8.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190573_S25	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190573_S25.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190566_S18	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190566_S18.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190565_S17	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190565_S17.fastq.gz_quant/libParams/flenDist.txt
+Salmon	all_sections	trimmed_TRA00190574_S26	/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/salmon_human_v35-report/quants/trimmed_TRA00190574_S26.fastq.gz_quant/libParams/flenDist.txt

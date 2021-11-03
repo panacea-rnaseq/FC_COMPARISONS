@@ -1,0 +1,85 @@
+Family name,Ligand,Official IUPHAR receptor name,Human gene symbol,Rat gene symbol,Mouse gene symbol,Comment
+5-HT3 receptors,5-hydroxytryptamine,5-HT3A,HTR3A,Htr3a,Htr3a,5-HT3 receptors
+5-HT3 receptors,5-hydroxytryptamine,5-HT3B,HTR3B,Htr3b,Htr3b,5-HT3 receptors
+5-HT3 receptors,5-hydroxytryptamine,5-HT3C,HTR3C,,,5-HT3 receptors
+5-HT3 receptors,5-hydroxytryptamine,5-HT3D,HTR3D,,,5-HT3 receptors
+5-HT3 receptors,5-hydroxytryptamine,5-HT3E,HTR3E,,,5-HT3 receptors
+Acid-sensing (proton-gated) ion channels (ASICs),H+,ASIC1,ASIC1,Asic1,Asic1,Acid-sensing (proton-gated) ion channels (ASICs)
+Acid-sensing (proton-gated) ion channels (ASICs),H+,ASIC2,ASIC2,Asic2,Asic2,Acid-sensing (proton-gated) ion channels (ASICs)
+Acid-sensing (proton-gated) ion channels (ASICs),H+,ASIC3,ASIC3,Asic3,Asic3,Acid-sensing (proton-gated) ion channels (ASICs)
+Epithelial sodium channel (ENaC),sodium,ENaC___,,,,Epithelial sodium channel (ENaC)
+Epithelial sodium channel (ENaC),sodium,ENaC _,SCNN1A,Scnn1a,Scnn1a,Epithelial sodium channel (ENaC)
+Epithelial sodium channel (ENaC),sodium,ENaC _,SCNN1B,Scnn1b,Scnn1b,Epithelial sodium channel (ENaC)
+Epithelial sodium channel (ENaC),sodium,ENaC _,SCNN1G,Scnn1g,Scnn1g,Epithelial sodium channel (ENaC)
+Epithelial sodium channel (ENaC),sodium,ENaC _,SCNN1D,,,Epithelial sodium channel (ENaC)
+GABAA receptors,GABA,GABAA receptor _1 subunit,GABRB1,Gabrb1,Gabrb1,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _2 subunit,GABRB2,Gabrb2,Gabrb2,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _3 subunit,GABRB3,Gabrb3,Gabrb3,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _1 subunit,GABRG1,Gabrg1,Gabrg1,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _2 subunit,GABRG2,Gabrg2,Gabrg2,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _3 subunit,GABRG3,Gabrg3,Gabrg3,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _ subunit,GABRD,Gabrd,Gabrd,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _ subunit,GABRE,Gabre,Gabre,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _ subunit,GABRQ,Gabrq,Gabrq,GABAA receptors
+GABAA receptors,GABA,GABAA receptor ¹ subunit,GABRP,Gabrp,Gabrp,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _1 subunit,GABRR1,Gabrr1,Gabrr1,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _2 subunit,GABRR2,Gabrr2,Gabrr2,GABAA receptors
+GABAA receptors,GABA,GABAA receptor _3 subunit,GABRR3,Gabrr3,Gabrr3,GABAA receptors
+GABAA receptors,,GABAA receptor _1 subunit,GABRA1,Gabra1,Gabra1,GABAA receptors
+GABAA receptors,,GABAA receptor _2 subunit,GABRA2,Gabra2,Gabra2,GABAA receptors
+GABAA receptors,,GABAA receptor _3 subunit,GABRA3,Gabra3,Gabra3,GABAA receptors
+GABAA receptors,,GABAA receptor _4 subunit,GABRA4,Gabra4,Gabra4,GABAA receptors
+GABAA receptors,,GABAA receptor _5 subunit,GABRA5,Gabra5,Gabra5,GABAA receptors
+GABAA receptors,,GABAA receptor _6 subunit,GABRA6,Gabra6,Gabra6,GABAA receptors
+Glycine receptors,,glycine receptor _1 subunit,GLRA1,Glra1,Glra1,Glycine receptors
+Glycine receptors,,glycine receptor _2 subunit,GLRA2,Glra2,Glra2,Glycine receptors
+Glycine receptors,,glycine receptor _3 subunit,GLRA3,Glra3,Glra3,Glycine receptors
+Glycine receptors,,glycine receptor _4 subunit (pseudogene in humans),GLRA4,Glra4,Glra4,Glycine receptors
+Glycine receptors,,glycine receptor _ subunit,GLRB,Glrb,Glrb,Glycine receptors
+Glycine receptors,,Glycine Receptor (All subtypes),,,,Glycine receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluA1,GRIA1,Gria1,Gria1,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluA2,GRIA2,Gria2,Gria2,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluA3,GRIA3,Gria3,Gria3,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluA4,GRIA4,Gria4,Gria4,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluD1,GRID1,Grid1,Grid1,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluD2,GRID2,Grid2,Grid2,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluK1,GRIK1,Grik1,Grik1,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluK2,GRIK2,Grik2,Grik2,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluK3,GRIK3,Grik3,Grik3,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluK4,GRIK4,Grik4,Grik4,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,L-glutamic acid,GluK5,GRIK5,Grik5,Grik5,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,,GluN1,GRIN1,Grin1,Grin1,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,,GluN2A,GRIN2A,Grin2a,Grin2a,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,,GluN2B,GRIN2B,Grin2b,Grin2b,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,,GluN2C,GRIN2C,Grin2c,Grin2c,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,,GluN2D,GRIN2D,Grin2d,Grin2d,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,,GluN3A,GRIN3A,Grin3a,Grin3a,Ionotropic glutamate receptors
+Ionotropic glutamate receptors,,GluN3B,GRIN3B,Grin3b,Grin3b,Ionotropic glutamate receptors
+IP3 receptors,,IP3R1,ITPR1,Itpr1,Itpr1,IP3 receptors
+IP3 receptors,,IP3R2,ITPR2,Itpr2,Itpr2,IP3 receptors
+IP3 receptors,,IP3R3,ITPR3,Itpr3,Itpr3,IP3 receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _1 subunit,CHRNA1,Chrna1,Chrna1,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _2 subunit,CHRNA2,Chrna2,Chrna2,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _3 subunit,CHRNA3,Chrna3,Chrna3,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _4 subunit,CHRNA4,Chrna4,Chrna4,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _5 subunit,CHRNA5,Chrna5,Chrna5,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _6 subunit,CHRNA6,Chrna6,Chrna6,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _7 subunit,CHRNA7,Chrna7,Chrna7,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,,nicotinic acetylcholine receptor _8 subunit (avian),,,,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _9 subunit,CHRNA9,Chrna9,Chrna9,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _10 subunit,CHRNA10,Chrna10,Chrna10,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _1 subunit,CHRNB1,Chrnb1,Chrnb1,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _2 subunit,CHRNB2,Chrnb2,Chrnb2,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _3 subunit,CHRNB3,Chrnb3,Chrnb3,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _4 subunit,CHRNB4,Chrnb4,Chrnb4,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _ subunit,CHRNG,Chrng,Chrng,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _ subunit,CHRND,Chrnd,Chrnd,Nicotinic acetylcholine receptors
+Nicotinic acetylcholine receptors,acetylcholine,nicotinic acetylcholine receptor _ subunit,CHRNE,Chrne,Chrne,Nicotinic acetylcholine receptors
+P2X receptors,ATP,P2X1,P2RX1,P2rx1,P2rx1,P2X receptors
+P2X receptors,ATP,P2X2,P2RX2,P2rx2,P2rx2,P2X receptors
+P2X receptors,ATP,P2X3,P2RX3,P2rx3,P2rx3,P2X receptors
+P2X receptors,ATP,P2X4,P2RX4,P2rx4,P2rx4,P2X receptors
+P2X receptors,ATP,P2X5,P2RX5,P2rx5,P2rx5,P2X receptors
+P2X receptors,ATP,P2X6,P2RX6,P2rx6,P2rx6,P2X receptors
+P2X receptors,ATP,P2X7,P2RX7,P2rx7,P2rx7,P2X receptors
+ZAC,,ZAC,ZACN,,,ZAC

@@ -1,0 +1,55 @@
+[2020-11-11 12:30:19.320] [jointLog] [info] parsing read library format
+[2020-11-11 12:30:19.320] [jointLog] [info] There is 1 library.
+[2020-11-11 12:30:19.387] [jointLog] [info] Loading Quasi index
+[2020-11-11 12:30:19.389] [jointLog] [info] Loading 32-bit quasi index
+[2020-11-11 12:30:28.653] [jointLog] [info] done
+[2020-11-11 12:30:28.653] [jointLog] [info] Index contained 228754 targets
+[2020-11-11 12:30:31.583] [jointLog] [warning] Fragment GC bias correction is currently *experimental* in single-end libraries.  Please use this option with caution.
+[2020-11-11 12:30:32.098] [jointLog] [info] Automatically detected most likely library type as SR
+[2020-11-11 12:30:54.522] [fileLog] [info] 
+At end of round 0
+==================
+Observed 12040443 total fragments (12040443 in most recent round)
+
+[2020-11-11 12:30:54.522] [jointLog] [info] Computed 269161 rich equivalence classes for further processing
+[2020-11-11 12:30:54.522] [jointLog] [info] Counted 10544382 total reads in the equivalence classes 
+[2020-11-11 12:30:54.616] [jointLog] [warning] 0.162909% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 30.
+
+
+[2020-11-11 12:30:54.616] [jointLog] [info] Mapping rate = 87.5747%
+
+[2020-11-11 12:30:54.616] [jointLog] [info] finished quantifyLibrary()
+[2020-11-11 12:30:54.625] [jointLog] [info] Starting optimizer
+[2020-11-11 12:30:54.868] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-11-11 12:30:54.884] [jointLog] [info] iteration = 0 | max rel diff. = 40.7823
+[2020-11-11 12:30:54.977] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2020-11-11 12:32:43.671] [jointLog] [info] Computed expected counts (for bias correction)
+[2020-11-11 12:32:43.671] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2020-11-11 12:32:53.433] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2020-11-11 12:33:02.881] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2020-11-11 12:33:12.148] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2020-11-11 12:33:21.072] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2020-11-11 12:33:30.232] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2020-11-11 12:33:38.737] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2020-11-11 12:33:47.902] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2020-11-11 12:33:49.426] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2020-11-11 12:33:50.206] [jointLog] [info] iteration = 100 | max rel diff. = 0.682157
+[2020-11-11 12:33:51.077] [jointLog] [info] iteration = 200 | max rel diff. = 0.185656
+[2020-11-11 12:33:52.000] [jointLog] [info] iteration = 300 | max rel diff. = 0.0710942
+[2020-11-11 12:33:52.947] [jointLog] [info] iteration = 400 | max rel diff. = 0.0658524
+[2020-11-11 12:33:53.882] [jointLog] [info] iteration = 500 | max rel diff. = 0.0345712
+[2020-11-11 12:33:54.820] [jointLog] [info] iteration = 600 | max rel diff. = 0.027091
+[2020-11-11 12:33:55.738] [jointLog] [info] iteration = 700 | max rel diff. = 0.0226802
+[2020-11-11 12:33:56.657] [jointLog] [info] iteration = 800 | max rel diff. = 0.0176232
+[2020-11-11 12:33:57.574] [jointLog] [info] iteration = 900 | max rel diff. = 0.0247185
+[2020-11-11 12:33:58.495] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0254852
+[2020-11-11 12:33:59.417] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0209316
+[2020-11-11 12:34:00.370] [jointLog] [info] iteration = 1200 | max rel diff. = 0.0181876
+[2020-11-11 12:34:01.236] [jointLog] [info] iteration = 1292 | max rel diff. = 0.00999014
+[2020-11-11 12:34:01.277] [jointLog] [info] Finished optimizer
+[2020-11-11 12:34:01.277] [jointLog] [info] writing output 
+
+[2020-11-11 12:34:01.840] [jointLog] [info] Starting Gibbs Sampler
+[2020-11-11 12:34:12.151] [jointLog] [info] Finished Gibbs Sampler

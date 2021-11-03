@@ -1,0 +1,21 @@
+{
+    "read_files": "/lab-share/RC-Data-Science-e2/Public/Sam/Project_38/outputs/trimmed-files/trimmed_LIB046814_TRA00190556_Heart-2_S9_R1.fastq.gz",
+    "expected_format": "SR",
+    "compatible_fragment_ratio": 0.9872225459890084,
+    "num_compatible_fragments": 11202341,
+    "num_assigned_fragments": 11347331,
+    "num_consistent_mappings": 29449732,
+    "num_inconsistent_mappings": 500654,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 0,
+    "SF": 500654,
+    "SR": 29449732,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

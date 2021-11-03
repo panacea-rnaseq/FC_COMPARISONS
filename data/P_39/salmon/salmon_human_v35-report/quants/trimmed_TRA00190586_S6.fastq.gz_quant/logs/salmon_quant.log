@@ -1,0 +1,57 @@
+[2020-11-11 13:22:48.856] [jointLog] [info] parsing read library format
+[2020-11-11 13:22:48.856] [jointLog] [info] There is 1 library.
+[2020-11-11 13:22:48.923] [jointLog] [info] Loading Quasi index
+[2020-11-11 13:22:48.924] [jointLog] [info] Loading 32-bit quasi index
+[2020-11-11 13:22:58.541] [jointLog] [info] done
+[2020-11-11 13:22:58.541] [jointLog] [info] Index contained 228754 targets
+[2020-11-11 13:23:01.090] [jointLog] [warning] Fragment GC bias correction is currently *experimental* in single-end libraries.  Please use this option with caution.
+[2020-11-11 13:23:01.585] [jointLog] [info] Automatically detected most likely library type as SR
+[2020-11-11 13:23:24.681] [jointLog] [info] Computed 273922 rich equivalence classes for further processing
+[2020-11-11 13:23:24.681] [jointLog] [info] Counted 10998092 total reads in the equivalence classes 
+[2020-11-11 13:23:24.767] [jointLog] [warning] 0.162272% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 30.
+
+
+[2020-11-11 13:23:24.767] [jointLog] [info] Mapping rate = 88.976%
+
+[2020-11-11 13:23:24.767] [jointLog] [info] finished quantifyLibrary()
+[2020-11-11 13:23:24.772] [jointLog] [info] Starting optimizer
+[2020-11-11 13:23:24.681] [fileLog] [info] 
+At end of round 0
+==================
+Observed 12360744 total fragments (12360744 in most recent round)
+
+[2020-11-11 13:23:24.966] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-11-11 13:23:24.982] [jointLog] [info] iteration = 0 | max rel diff. = 40.3013
+[2020-11-11 13:23:25.071] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2020-11-11 13:25:15.531] [jointLog] [info] Computed expected counts (for bias correction)
+[2020-11-11 13:25:15.532] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2020-11-11 13:25:24.767] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2020-11-11 13:25:33.819] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2020-11-11 13:25:42.836] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2020-11-11 13:25:51.908] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2020-11-11 13:26:00.632] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2020-11-11 13:26:09.679] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2020-11-11 13:26:19.423] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2020-11-11 13:26:21.482] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2020-11-11 13:26:22.282] [jointLog] [info] iteration = 100 | max rel diff. = 0.307291
+[2020-11-11 13:26:23.139] [jointLog] [info] iteration = 200 | max rel diff. = 0.169606
+[2020-11-11 13:26:24.046] [jointLog] [info] iteration = 300 | max rel diff. = 0.0750765
+[2020-11-11 13:26:25.003] [jointLog] [info] iteration = 400 | max rel diff. = 0.0577063
+[2020-11-11 13:26:25.972] [jointLog] [info] iteration = 500 | max rel diff. = 0.0465498
+[2020-11-11 13:26:26.932] [jointLog] [info] iteration = 600 | max rel diff. = 0.0414849
+[2020-11-11 13:26:27.913] [jointLog] [info] iteration = 700 | max rel diff. = 0.036273
+[2020-11-11 13:26:28.892] [jointLog] [info] iteration = 800 | max rel diff. = 0.0321415
+[2020-11-11 13:26:29.903] [jointLog] [info] iteration = 900 | max rel diff. = 0.0268398
+[2020-11-11 13:26:30.893] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0170588
+[2020-11-11 13:26:31.910] [jointLog] [info] iteration = 1100 | max rel diff. = 0.015495
+[2020-11-11 13:26:32.934] [jointLog] [info] iteration = 1200 | max rel diff. = 0.0104421
+[2020-11-11 13:26:33.957] [jointLog] [info] iteration = 1300 | max rel diff. = 0.0143175
+[2020-11-11 13:26:34.998] [jointLog] [info] iteration = 1400 | max rel diff. = 0.0170333
+[2020-11-11 13:26:35.819] [jointLog] [info] iteration = 1480 | max rel diff. = 0.00787653
+[2020-11-11 13:26:35.854] [jointLog] [info] Finished optimizer
+[2020-11-11 13:26:35.854] [jointLog] [info] writing output 
+
+[2020-11-11 13:26:36.397] [jointLog] [info] Starting Gibbs Sampler
+[2020-11-11 13:26:47.038] [jointLog] [info] Finished Gibbs Sampler

@@ -1,0 +1,21 @@
+{
+    "read_files": "/lab-share/RC-Data-Science-e2/Public/Sam/Project_39/outputs/trimmed-files/trimmed_TRA00190586_S6.fastq.gz",
+    "expected_format": "SR",
+    "compatible_fragment_ratio": 0.9873386220082538,
+    "num_compatible_fragments": 10858841,
+    "num_assigned_fragments": 10998092,
+    "num_consistent_mappings": 47331925,
+    "num_inconsistent_mappings": 837550,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 0,
+    "SF": 837550,
+    "SR": 47331925,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

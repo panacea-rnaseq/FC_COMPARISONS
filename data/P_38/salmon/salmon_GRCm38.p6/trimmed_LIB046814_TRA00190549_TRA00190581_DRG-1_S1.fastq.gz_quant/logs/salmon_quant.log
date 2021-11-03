@@ -1,0 +1,54 @@
+[2020-10-27 14:47:33.506] [jointLog] [info] parsing read library format
+[2020-10-27 14:47:33.506] [jointLog] [info] There is 1 library.
+[2020-10-27 14:47:33.620] [jointLog] [info] Loading Quasi index
+[2020-10-27 14:47:33.620] [jointLog] [info] Loading 32-bit quasi index
+[2020-10-27 14:47:42.697] [jointLog] [info] done
+[2020-10-27 14:47:42.697] [jointLog] [info] Index contained 140948 targets
+[2020-10-27 14:47:44.680] [jointLog] [warning] Fragment GC bias correction is currently *experimental* in single-end libraries.  Please use this option with caution.
+[2020-10-27 14:47:45.282] [jointLog] [info] Automatically detected most likely library type as SR
+[2020-10-27 14:49:07.676] [jointLog] [info] Computed 227905 rich equivalence classes for further processing
+[2020-10-27 14:49:07.676] [jointLog] [info] Counted 36609279 total reads in the equivalence classes 
+[2020-10-27 14:49:07.677] [fileLog] [info] 
+At end of round 0
+==================
+Observed 40162880 total fragments (40162880 in most recent round)
+
+[2020-10-27 14:49:07.782] [jointLog] [warning] 0.1683% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 30.
+
+
+[2020-10-27 14:49:07.782] [jointLog] [info] Mapping rate = 91.152%
+
+[2020-10-27 14:49:07.782] [jointLog] [info] finished quantifyLibrary()
+[2020-10-27 14:49:07.791] [jointLog] [info] Starting optimizer
+[2020-10-27 14:49:07.961] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-10-27 14:49:07.974] [jointLog] [info] iteration = 0 | max rel diff. = 12.5085
+[2020-10-27 14:49:08.077] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2020-10-27 14:50:31.166] [jointLog] [info] Computed expected counts (for bias correction)
+[2020-10-27 14:50:31.167] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2020-10-27 14:50:37.447] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2020-10-27 14:50:43.613] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2020-10-27 14:50:50.260] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2020-10-27 14:50:57.125] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2020-10-27 14:51:03.446] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2020-10-27 14:51:09.941] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2020-10-27 14:51:16.312] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2020-10-27 14:51:21.700] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2020-10-27 14:51:22.786] [jointLog] [info] iteration = 100 | max rel diff. = 0.204254
+[2020-10-27 14:51:24.066] [jointLog] [info] iteration = 200 | max rel diff. = 0.0966007
+[2020-10-27 14:51:25.368] [jointLog] [info] iteration = 300 | max rel diff. = 0.0606116
+[2020-10-27 14:51:26.623] [jointLog] [info] iteration = 400 | max rel diff. = 0.0490875
+[2020-10-27 14:51:27.879] [jointLog] [info] iteration = 500 | max rel diff. = 0.0337191
+[2020-10-27 14:51:29.036] [jointLog] [info] iteration = 600 | max rel diff. = 0.0255676
+[2020-10-27 14:51:30.328] [jointLog] [info] iteration = 700 | max rel diff. = 0.0267724
+[2020-10-27 14:51:31.646] [jointLog] [info] iteration = 800 | max rel diff. = 0.024208
+[2020-10-27 14:51:32.902] [jointLog] [info] iteration = 900 | max rel diff. = 0.0270066
+[2020-10-27 14:51:33.940] [jointLog] [info] iteration = 1000 | max rel diff. = 0.02972
+[2020-10-27 14:51:34.956] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0106948
+[2020-10-27 14:51:35.628] [jointLog] [info] iteration = 1170 | max rel diff. = 0.00991832
+[2020-10-27 14:51:35.653] [jointLog] [info] Finished optimizer
+[2020-10-27 14:51:35.654] [jointLog] [info] writing output 
+
+[2020-10-27 14:51:36.273] [jointLog] [info] Starting Gibbs Sampler
+[2020-10-27 14:52:02.146] [jointLog] [info] Finished Gibbs Sampler

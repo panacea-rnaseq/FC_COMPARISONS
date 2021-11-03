@@ -1,0 +1,11 @@
+{
+    "salmon_version": "0.9.1",
+    "libType": "A",
+    "index": "/lab-share/RC-Data-Science-e2/Public/Liang/genome/GRCm38.p6/mms_index/",
+    "unmatedReads": "/lab-share/RC-Data-Science-e2/Public/Sam/Project_38/outputs/trimmed-files/trimmed_LIB046814_TRA00190551_Heart-1_S3_R1.fastq.gz",
+    "gcBias": [],
+    "numGibbsSamples": "20",
+    "threads": "15",
+    "output": "/lab-share/RC-Data-Science-e2/Public/Sam/Project_38/outputs//salmon-report/quants/trimmed_LIB046814_TRA00190551_Heart-1_S3_R1.fastq.gz_quant",
+    "auxDir": "aux_info"
+}

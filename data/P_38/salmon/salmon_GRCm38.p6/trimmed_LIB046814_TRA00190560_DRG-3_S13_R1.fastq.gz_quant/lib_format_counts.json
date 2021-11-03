@@ -1,0 +1,21 @@
+{
+    "read_files": "/lab-share/RC-Data-Science-e2/Public/Sam/Project_38/outputs/trimmed-files/trimmed_LIB046814_TRA00190560_DRG-3_S13_R1.fastq.gz",
+    "expected_format": "SR",
+    "compatible_fragment_ratio": 0.9925134403839065,
+    "num_compatible_fragments": 14227835,
+    "num_assigned_fragments": 14335156,
+    "num_consistent_mappings": 41616935,
+    "num_inconsistent_mappings": 793458,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 0,
+    "SF": 793458,
+    "SR": 41616935,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

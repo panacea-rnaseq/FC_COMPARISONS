@@ -1,0 +1,146 @@
+Family name,Physiological ion,Official IUPHAR receptor name,Human gene symbol,Rat gene symbol,Mouse gene symbol,Comment
+Calcium- and sodium-activated potassium channels,K+,KCa1.1,KCNMA1,Kcnma1,Kcnma1,Calcium- and sodium-activated potassium channels
+Calcium- and sodium-activated potassium channels,K+,KCa2.1,KCNN1,Kcnn1,Kcnn1,Calcium- and sodium-activated potassium channels
+Calcium- and sodium-activated potassium channels,K+,KCa2.2,KCNN2,Kcnn2,Kcnn2,Calcium- and sodium-activated potassium channels
+Calcium- and sodium-activated potassium channels,K+,KCa2.3,KCNN3,Kcnn3,Kcnn3,Calcium- and sodium-activated potassium channels
+Calcium- and sodium-activated potassium channels,K+,KCa3.1,KCNN4,Kcnn4,Kcnn4,Calcium- and sodium-activated potassium channels
+Calcium- and sodium-activated potassium channels,K+,KNa1.1,KCNT1,Kcnt1,Kcnt1,Calcium- and sodium-activated potassium channels
+Calcium- and sodium-activated potassium channels,K+,KNa1.2,KCNT2,Kcnt2,Kcnt2,Calcium- and sodium-activated potassium channels
+Calcium- and sodium-activated potassium channels,K+,KCa5.1,KCNU1,Kcnu1,Kcnu1,Calcium- and sodium-activated potassium channels
+CatSper and Two-Pore channels,Ca2+,CatSper1,CATSPER1,Catsper1,Catsper1,CatSper and Two-Pore channels
+CatSper and Two-Pore channels,Ca2+,CatSper2,CATSPER2,Catsper2,Catsper2,CatSper and Two-Pore channels
+CatSper and Two-Pore channels,Ca2+,CatSper3,CATSPER3,Catsper3,Catsper3,CatSper and Two-Pore channels
+CatSper and Two-Pore channels,Ca2+,CatSper4,CATSPER4,Catsper4,Catsper4,CatSper and Two-Pore channels
+CatSper and Two-Pore channels,Ca2+,TPC1,TPCN1,Tpcn1,Tpcn1,CatSper and Two-Pore channels
+CatSper and Two-Pore channels,Ca2+,TPC2,TPCN2,Tpcn2,Tpcn2,CatSper and Two-Pore channels
+Cyclic nucleotide-regulated channels,See comments below,CNGA1,CNGA1,Cnga1,Cnga1,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,CNGA2,CNGA2,Cnga2,Cnga2,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,CNGA3,CNGA3,Cnga3,Cnga3,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,CNGA4,CNGA4,Cnga4,Cnga4,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,CNGB1,CNGB1,Cngb1,Cngb1,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,CNGB3,CNGB3,Cngb3,Cngb3,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,HCN1,HCN1,Hcn1,Hcn1,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,HCN2,HCN2,Hcn2,Hcn2,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,HCN3,HCN3,Hcn3,Hcn3,Cyclic nucleotide-regulated channels
+Cyclic nucleotide-regulated channels,See comments below,HCN4,HCN4,Hcn4,Hcn4,Cyclic nucleotide-regulated channels
+Inwardly rectifying potassium channels,K+,Kir1.1,KCNJ1,Kcnj1,Kcnj1,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir2.1,KCNJ2,Kcnj2,Kcnj2,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir2.2,KCNJ12,Kcnj12,Kcnj12,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir2.3,KCNJ4,Kcnj4,Kcnj4,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir2.4,KCNJ14,Kcnj14,Kcnj14,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir3.1,KCNJ3,Kcnj3,Kcnj3,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir3.2,KCNJ6,Kcnj6,Kcnj6,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir3.3,KCNJ9,Kcnj9,Kcnj9,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir3.4,KCNJ5,Kcnj5,Kcnj5,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir4.1,KCNJ10,Kcnj10,Kcnj10,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir4.2,KCNJ15,Kcnj15,Kcnj15,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir5.1,KCNJ16,Kcnj16,Kcnj16,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir6.1,KCNJ8,Kcnj8,Kcnj8,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir6.2,KCNJ11,Kcnj11,Kcnj11,Inwardly rectifying potassium channels
+Inwardly rectifying potassium channels,K+,Kir7.1,KCNJ13,Kcnj13,Kcnj13,Inwardly rectifying potassium channels
+Ryanodine receptors,,RyR1,RYR1,Ryr1,Ryr1,Ryanodine receptors
+Ryanodine receptors,,RyR2,RYR2,Ryr2,Ryr2,Ryanodine receptors
+Ryanodine receptors,,RyR3,RYR3,Ryr3,Ryr3,Ryanodine receptors
+Transient Receptor Potential channels,See comments below,TRPA1,TRPA1,Trpa1,Trpa1,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPC1,TRPC1,Trpc1,Trpc1,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPC2,TRPC2,Trpc2,Trpc2,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPC3,TRPC3,Trpc3,Trpc3,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPC4,TRPC4,Trpc4,Trpc4,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPC5,TRPC5,Trpc5,Trpc5,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPC6,TRPC6,Trpc6,Trpc6,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPC7,TRPC7,Trpc7,Trpc7,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM1,TRPM1,Trpm1,Trpm1,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM2,TRPM2,Trpm2,Trpm2,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM3,TRPM3,Trpm3,Trpm3,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM4,TRPM4,Trpm4,Trpm4,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM5,TRPM5,Trpm5,Trpm5,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM6,TRPM6,Trpm6,Trpm6,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM7,TRPM7,Trpm7,Trpm7,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPM8,TRPM8,Trpm8,Trpm8,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPML1,MCOLN1,Mcoln1,Mcoln1,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPML2,MCOLN2,Mcoln2,Mcoln2,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPML3,MCOLN3,Mcoln3,Mcoln3,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPP1,PKD2,Pkd2,Pkd2,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPP2,PKD2L1,Pkd2l1,Pkd2l1,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPP3,PKD2L2,Pkd2l2,Pkd2l2,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPV1,TRPV1,Trpv1,Trpv1,Transient Receptor Potential channels
+Transient Receptor Potential channels,,TRPV2,TRPV2,Trpv2,Trpv2,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPV3,TRPV3,Trpv3,Trpv3,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPV4,TRPV4,Trpv4,Trpv4,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPV5,TRPV5,Trpv5,Trpv5,Transient Receptor Potential channels
+Transient Receptor Potential channels,See comments below,TRPV6,TRPV6,Trpv6,Trpv6,Transient Receptor Potential channels
+Two P domain potassium channels,K+,K2P1.1,KCNK1,Kcnk1,Kcnk1,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P2.1,KCNK2,Kcnk2,Kcnk2,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P3.1,KCNK3,Kcnk3,Kcnk3,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P4.1,KCNK4,Kcnk4,Kcnk4,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P5.1,KCNK5,Kcnk5,Kcnk5,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P6.1,KCNK6,Kcnk6,Kcnk6,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P7.1,KCNK7,Kcnk7,Kcnk7,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P9.1,KCNK9,Kcnk9,Kcnk9,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P10.1,KCNK10,Kcnk10,Kcnk10,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P12.1,KCNK12,Kcnk12,Kcnk12,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P13.1,KCNK13,Kcnk13,Kcnk13,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P15.1,KCNK15,Kcnk15,Kcnk15,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P16.1,KCNK16,Kcnk16,Kcnk16,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P17.1,KCNK17,,,Two P domain potassium channels
+Two P domain potassium channels,K+,K2P18.1,KCNK18,Kcnk18,Kcnk18,Two P domain potassium channels
+Voltage-gated calcium channels,Ca2+,Cav1.1,CACNA1S,Cacna1s,Cacna1s,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav1.2,CACNA1C,Cacna1c,Cacna1c,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav1.3,CACNA1D,Cacna1d,Cacna1d,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav1.4,CACNA1F,Cacna1f,Cacna1f,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav2.1,CACNA1A,Cacna1a,Cacna1a,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav2.2,CACNA1B,Cacna1b,Cacna1b,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav2.3,CACNA1E,Cacna1e,Cacna1e,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav3.1,CACNA1G,Cacna1g,Cacna1g,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav3.2,CACNA1H,Cacna1h,Cacna1h,Voltage-gated calcium channels
+Voltage-gated calcium channels,Ca2+,Cav3.3,CACNA1I,Cacna1i,Cacna1i,Voltage-gated calcium channels
+Voltage-gated potassium channels,K+,Kv1.1,KCNA1,Kcna1,Kcna1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv1.2,KCNA2,Kcna2,Kcna2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv1.3,KCNA3,Kcna3,Kcna3,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv1.4,KCNA4,Kcna4,Kcna4,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv1.5,KCNA5,Kcna5,Kcna5,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv1.6,KCNA6,Kcna6,Kcna6,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv1.7,KCNA7,Kcna7,Kcna7,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv1.8,KCNA10,Kcna10,Kcna10,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv2.1,KCNB1,Kcnb1,Kcnb1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv2.2,KCNB2,Kcnb2,Kcnb2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv3.1,KCNC1,Kcnc1,Kcnc1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv3.2,KCNC2,Kcnc2,Kcnc2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv3.3,KCNC3,Kcnc3,Kcnc3,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv3.4,KCNC4,Kcnc4,Kcnc4,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv4.1,KCND1,Kcnd1,Kcnd1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv4.2,KCND2,Kcnd2,Kcnd2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv4.3,KCND3,Kcnd3,Kcnd3,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv5.1,KCNF1,Kcnf1,Kcnf1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv6.1,KCNG1,Kcng1,Kcng1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv6.2,KCNG2,Kcng2,Kcng2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv6.3,KCNG3,Kcng3,Kcng3,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv6.4,KCNG4,Kcng4,Kcng4,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv7.1,KCNQ1,Kcnq1,Kcnq1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv7.2,KCNQ2,Kcnq2,Kcnq2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv7.3,KCNQ3,Kcnq3,Kcnq3,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv7.4,KCNQ4,Kcnq4,Kcnq4,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv7.5,KCNQ5,Kcnq5,Kcnq5,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv8.1,KCNV1,Kcnv1,Kcnv1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv8.2,KCNV2,Kcnv2,Kcnv2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv9.1,KCNS1,Kcns1,Kcns1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv9.2,KCNS2,Kcns2,Kcns2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv9.3,KCNS3,Kcns3,Kcns3,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv10.1,KCNH1,Kcnh1,Kcnh1,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv10.2,KCNH5,Kcnh5,Kcnh5,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv11.1,KCNH2,Kcnh2,Kcnh2,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv11.2,KCNH6,Kcnh6,Kcnh6,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv11.3,KCNH7,Kcnh7,Kcnh7,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv12.1,KCNH8,Kcnh8,Kcnh8,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv12.2,KCNH3,Kcnh3,Kcnh3,Voltage-gated potassium channels
+Voltage-gated potassium channels,K+,Kv12.3,KCNH4,Kcnh4,Kcnh4,Voltage-gated potassium channels
+Voltage-gated proton channel,H+,Hv1,HVCN1,Hvcn1,Hvcn1,Voltage-gated proton channel
+Voltage-gated sodium channels,Na+,Nav1.1,SCN1A,Scn1a,Scn1a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.2,SCN2A,Scn2a,Scn2a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.3,SCN3A,Scn3a,Scn3a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.4,SCN4A,Scn4a,Scn4a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.5,SCN5A,Scn5a,Scn5a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.6,SCN8A,Scn8a,Scn8a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.7,SCN9A,Scn9a,Scn9a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.8,SCN10A,Scn10a,Scn10a,Voltage-gated sodium channels
+Voltage-gated sodium channels,Na+,Nav1.9,SCN11A,Scn11a,Scn11a,Voltage-gated sodium channels
