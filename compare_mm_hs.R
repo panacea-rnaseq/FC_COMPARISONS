@@ -9,9 +9,9 @@ source('./pre_process_files.R')
 
 ## Comparing Primary mouse and human iPSC
 # Preparing mouse dataframe
-mm_hs_genes <- read.csv(paste0(wd, "/../Project_52/mm_hs_genes.csv"), header = T)
-
-pMm_full_df <- merge(x=cts_symbol_pMm, y=mm_hs_genes, by.x='Mm_genes')
+hs_mm <- read.table('~/.biomart/human_mouse_ortho.tsv', sep='\t', header = T)
+colnames(hs_mm) <- c('Hs_genes', 'Mm_genes')
+pMm_full_df <- merge(x=cts_symbol_pMm, y=hs_mm, by.x='Mm_genes')
 col_len <- length(colnames(pMm_full_df))
 
 # rearranging the order
