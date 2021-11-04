@@ -1,0 +1,9 @@
+Sample	tissue
+h_DRG_TPM	DRG
+h_Spinal_Cord_TPM	Spinal_cord
+h_Nucleus_Accumbens_TPM	Brain_1
+h_Caudate_Nucleus_TPM	Brain_1
+h_Hippocampus_TPM	Brain_2
+h_Frontal_Cortex_TPM	Brain_1
+h_Heart_TPM	Heart
+
