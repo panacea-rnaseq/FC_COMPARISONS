@@ -48,7 +48,6 @@ Mm_SC <- merge(Mm_SC, len_Mm_SC, by = 'Mm_genes')
 Mm_SC$Mm_Avg_TPM <- Mm_Avg_TPM
 
 
-
 Mm_Brain1 <- 
   pMm_full_df[, c(1,2,which(colnames(pMm_full_df) == str_extract(colnames(pMm_full_df), "Brain_1.*")))]
 
@@ -61,8 +60,6 @@ cnames <- str_extract(colnames(pMm_full_df), "Brain_1.*")
 Mm_Avg_TPM <- rowMeans(Mm_Brain1[, na.omit(cnames)])
 Mm_Brain1 <- merge(Mm_Brain1, len_Mm_Brain1, by = 'Mm_genes')
 Mm_Brain1$Mm_Avg_TPM <- Mm_Avg_TPM
-
-
 
 
 Mm_Brain2 <- 
@@ -91,8 +88,6 @@ cnames <- str_extract(colnames(pMm_full_df), "Brain_3.*")
 Mm_Avg_TPM <- rowMeans(Mm_Brain3[, na.omit(cnames)])
 Mm_Brain3 <- merge(Mm_Brain3, len_Mm_Brain3, by = 'Mm_genes')
 Mm_Brain3$Mm_Avg_TPM <- Mm_Avg_TPM 
-
-
 
 
 Mm_Heart <- 
@@ -133,8 +128,8 @@ len_Hs_cortical <-
 
 cnames <- str_extract(colnames(Hs_full_df), "Cortical.*")
 Hs_Avg_TPM <- rowMeans(Hs_cortical[, na.omit(cnames)])
-Hs_cortical <- merge(Hs_cortical, len_Hs_cortical, by = 'Hs_symbol')
 Hs_cortical$Hs_Avg_TPM <- Hs_Avg_TPM
+Hs_cortical <- merge(Hs_cortical, len_Hs_cortical, by = 'Hs_symbol')
 
 
 Hs_motor <- 
@@ -146,8 +141,9 @@ len_Hs_motor <-
                                                      "Motor.*")))]
 cnames <- str_extract(colnames(Hs_full_df), "Motor.*")
 Hs_Avg_TPM <- rowMeans(Hs_motor[, na.omit(cnames)])
-Hs_motor <- merge(Hs_motor, len_Hs_motor, by = 'Hs_symbol')
 Hs_motor$Hs_Avg_TPM <- Hs_Avg_TPM
+Hs_motor <- merge(Hs_motor, len_Hs_motor, by = 'Hs_symbol')
+
 
 
 Hs_nociceptor_8week <- 
@@ -161,9 +157,10 @@ len_Hs_nociceptor_8week <-
 cnames <- str_extract(colnames(Hs_full_df), "Nocicep.*8Week.*")
 
 Hs_Avg_TPM <- rowMeans(Hs_nociceptor_8week[, na.omit(cnames)])
+Hs_nociceptor_8week$Hs_Avg_TPM <- Hs_Avg_TPM
 Hs_nociceptor_8week <- merge(Hs_nociceptor_8week, len_Hs_nociceptor_8week,
                              by = 'Hs_symbol')
-Hs_nociceptor_8week$Hs_Avg_TPM <- Hs_Avg_TPM
+
 
 
 
@@ -178,9 +175,9 @@ len_Hs_nociceptor_4week <-
 
 cnames <- str_extract(colnames(Hs_full_df), "Nocicep.*4Week.*")
 Hs_Avg_TPM <- rowMeans(Hs_nociceptor_4week[, na.omit(cnames)])
+Hs_nociceptor_4week$Hs_Avg_TPM <- Hs_Avg_TPM
 Hs_nociceptor_4week <- merge(Hs_nociceptor_4week, len_Hs_nociceptor_4week,
                              by = 'Hs_symbol')
-Hs_nociceptor_4week$Hs_Avg_TPM <- Hs_Avg_TPM
 
 
 Hs_cardio <- 
@@ -194,8 +191,9 @@ len_Hs_cardio <-
 
 cnames <- str_extract(colnames(Hs_full_df), "Cardiomy.*")
 Hs_Avg_TPM <- rowMeans(Hs_cardio[, na.omit(cnames)])
-Hs_cardio <- merge(Hs_cardio, len_Hs_cardio, by = 'Hs_symbol')
 Hs_cardio$Hs_Avg_TPM <- Hs_Avg_TPM
+Hs_cardio <- merge(Hs_cardio, len_Hs_cardio, by = 'Hs_symbol')
+
 
 
 ## Creating a list of all samples from Human and Mouse DRGs
@@ -297,17 +295,21 @@ mouse_drg_p10 <- list(
 human_drg_p10 <- list(
   'hDRG' = human_mouse_p10[,c(2,7,8,9,10,11,12,13)]
 )
-
+colnames(mouse_drg_p10$mDRG)[2] <- 'Mm_genes'
+colnames(mouse_drg_p10$mDRG)[9] <- 'mDRG_Avg_TPM'
+colnames(human_drg_p10$hDRG)[1] <- 'Hs_symbol'
+colnames(human_drg_p10$hDRG)[8] <- 'Avg_TPM'
 
 ## Primary Human VS ALL
 dir.create(paste0(wd,'/outputs/P_39_Primary_Human'),
            showWarnings = F,
            recursive = T)
 
+
 # Human iPSC samples vs Primary mouse
 hs_count = 1
 mm_count = 1
-wd <- '/lab-share/RC-Data-Science-e2/Public/Sam/Project_56/'
+
 dir.create(paste0(wd,'/outputs/P_39_Human_iPSC/Human_iPSC_vs_Primary_Mouse'),
            showWarnings = F,
            recursive = T)
@@ -419,7 +421,7 @@ for(dh in human_drg){
 hs_count = 1
 mm_count = 1
 
-wd <- '/lab-share/RC-Data-Science-e2/Public/Sam/Project_56/'
+
 dir.create(paste0(wd,'/outputs/P_10_Human_DRG_IN_HOUSE/Human_DRG_vs_Primary_Mouse'),
            showWarnings = F,
            recursive = T)
@@ -431,7 +433,7 @@ for(hs in human_drg_p10){
     mm_sample <- names(primary_mouse_list)[mm_count]
     colnames(mm)[2] <- 'Hs_symbol'
     df <- merge(hs, mm, by='Hs_symbol')
-    df$FoldChange <- (df$hDRG_Avg_TPM+1)/(df$Mm_Avg_TPM+1)
+    df$FoldChange <- (df$Avg_TPM+1)/(df$Mm_Avg_TPM+1)
     write.csv(df, paste0(WD, '/', hs_sample,'/', hs_sample, '_vs_', mm_sample,'.csv'), 
               col.names = T, row.names = F)
     mm_count = mm_count+1
@@ -444,7 +446,6 @@ for(hs in human_drg_p10){
 hs_count = 1
 ipsc_count = 1
 
-wd <- '/lab-share/RC-Data-Science-e2/Public/Sam/Project_56/'
 dir.create(paste0(wd,'/outputs/P_10_Human_DRG_IN_HOUSE/Human_DRG_vs_Human_iPSC'),
            showWarnings = F,
            recursive = T)
@@ -455,7 +456,7 @@ for(hs in human_drg_p10){
   for(mm in human_iPSC){
     mm_sample <- names(human_iPSC)[ipsc_count]
     df <- merge(hs, mm, by='Hs_symbol')
-    df$FoldChange <- (df$hDRG_Avg_TPM+1)/(df$Hs_Avg_TPM+1)
+    df$FoldChange <- (df$Avg_TPM+1)/(df$Hs_Avg_TPM+1)
     write.csv(df, paste0(WD, '/', hs_sample,'/', hs_sample, '_vs_', mm_sample,'.csv'), 
               col.names = T, row.names = F)
     ipsc_count = ipsc_count+1
@@ -470,7 +471,6 @@ for(hs in human_drg_p10){
 hs_count = 1
 human_count = 1
 
-wd <- '/lab-share/RC-Data-Science-e2/Public/Sam/Project_56/'
 dir.create(paste0(wd,'/outputs/P_10_Human_DRG_IN_HOUSE/Human_DRG_vs_Human_DRG_Ray_Lab'),
            showWarnings = F,
            recursive = T)
@@ -497,7 +497,6 @@ for(hs in human_drg_p10){
 mDRG_count = 1
 mm_count = 1
 
-wd <- '/lab-share/RC-Data-Science-e2/Public/Sam/Project_56/'
 dir.create(paste0(wd,'/outputs/P_10_Mouse_DRG_IN_HOUSE/Mouse_DRG_in_house_vs_Primary_Mouse'),
            showWarnings = F,
            recursive = T)
@@ -526,7 +525,7 @@ dir.create(paste0(wd,'/outputs/P_39_Primary_Human'),
 # Human iPSC samples vs Human iPSC
 hs_count = 1
 mm_count = 1
-wd <- '/lab-share/RC-Data-Science-e2/Public/Sam/Project_56/'
+
 dir.create(paste0(wd,'/outputs/P_39_Human_iPSC/Human_iPSC_vs_Human_iPSC'),
            showWarnings = F,
            recursive = T)
