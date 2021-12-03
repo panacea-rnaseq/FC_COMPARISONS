@@ -1,3 +1,17 @@
+prepare_df <- function(full_df, len_full_df, kword){
+  full_df_subset <- 
+    full_df[, c(1,which(colnames(full_df) == str_extract(colnames(full_df), paste0(kword, ".*"))))]
+  
+  len_Hs <- 
+    len_full_df[, c(col_length, which(colnames(len_full_df) == 
+                                           str_extract(colnames(len_full_df), 
+                                                       paste0(kword, ".*"))))]
+  
+  cnames <- str_extract(colnames(full_df), paste0(kword, ".*"))
+  Hs_Avg_TPM <- rowMeans(full_df_subset[, na.omit(cnames)])
+  full_df_subset$Hs_Avg_TPM <- Hs_Avg_TPM
+  full_df_subset <- merge(full_df_subset, len_Hs, by = 'Hs_symbol')
+}
 
 
 ensembl2symbol <-function(cts, sp){
