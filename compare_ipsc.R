@@ -40,3 +40,33 @@ human_iPSC <- list(
   'Cardio' = prepare_df(Hs_full_df, len_symbol_pHs, 'Cardiomy'),
   'Cortical' = prepare_df(Hs_full_df, len_symbol_pHs, 'Cortical')
 )
+
+
+# Human iPSC samples vs Human iPSC
+
+dir.create(paste0('./final_outputs/P_39_Human_iPSC/'),
+           showWarnings = F,
+           recursive = T)
+WD <- paste0('./final_outputs/P_39_Human_iPSC/')
+nociceptor_cols <- c("Nociceptor_4_weeks", "Nociceptor_8weeks")
+other_cols <- c("Motor", "Cardio", "Cortical" )
+
+for(hs in nociceptor_cols){
+  hs_sample <- hs
+  hs_sample_df <- as.data.frame(human_iPSC[hs])
+  cnames <- colnames(hs_sample_df)
+  colnames(hs_sample_df)[which(cnames ==na.omit(str_extract(cnames, '.*Hs_symbol')))] <- 'Hs_symbol'
+  dir.create(paste0(WD, hs_sample), showWarnings = F)
+  
+  for(other_samples in other_cols){
+    other_samples_df <- as.data.frame(human_iPSC[other_samples])
+    cnames <- colnames(other_samples_df)
+    colnames(other_samples_df)[which(cnames == na.omit(str_extract(cnames,'.*Hs_symbol')))] <- 'Hs_symbol'
+    df <- merge(hs_sample_df, other_samples_df, by='Hs_symbol')
+    df$FoldChange <- (df[,paste0(hs, ".Hs_Avg_TPM")]+1)/(df[,paste0(other_samples, ".Hs_Avg_TPM")]+1)
+    write.csv(df, paste0(WD, hs_sample,'/', hs_sample, '_vs_', other_samples,'.csv'), 
+              col.names = T, row.names = F)
+    }
+}
+
+
