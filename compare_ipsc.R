@@ -64,8 +64,23 @@ for(hs in nociceptor_cols){
     colnames(other_samples_df)[which(cnames == na.omit(str_extract(cnames,'.*Hs_symbol')))] <- 'Hs_symbol'
     df <- merge(hs_sample_df, other_samples_df, by='Hs_symbol')
     df$FoldChange <- (df[,paste0(hs, ".Hs_Avg_TPM")]+1)/(df[,paste0(other_samples, ".Hs_Avg_TPM")]+1)
+    
     write.csv(df, paste0(WD, hs_sample,'/', hs_sample, '_vs_', other_samples,'.csv'), 
               col.names = T, row.names = F)
+    
+    
+    n <- nrow(df)
+    # up regulated top 10
+    up_reg <- df[order(df$FoldChange, decreasing = T), ][1:round(n*10/100), ]
+    
+    # down regulated top 10
+    down_reg <- df[order(df$FoldChange, decreasing = F), ][1:round(n*10/100), ]
+    
+    write.csv(up_reg, paste0(WD, hs_sample,'/', hs_sample, '_vs_', other_samples,'_up_reg.csv'), 
+              col.names = T, row.names = F)
+    write.csv(down_reg, paste0(WD, hs_sample,'/', hs_sample, '_vs_', other_samples,'_down_reg.csv'), 
+              col.names = T, row.names = F)
+    
     }
 }
 
